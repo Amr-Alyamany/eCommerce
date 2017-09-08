@@ -1,0 +1,191 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: none;
+	outline: none;
+	font-family: 'Open Sans', sans-serif;
+	box-sizing: border-box;
+}
+body {
+	/*background-image: url(../images/back.jpg);*/
+	background-color: #EEE;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	min-width: 300px;
+	font-size: 16px;
+}
+.asterisk {
+	font-size: 20px;
+    position: absolute;
+    right: 30px;
+    top: 14px;
+    color: #0080ff;
+}
+/* Start Style Login */
+.gradient {
+	background: linear-gradient(rgba(11, 1, 82, 0.8),rgba(57, 67, 255, 0.8));
+	background-attachment: fixed;
+	min-height: 100vh;
+}
+.gradient table {
+	width: 100%;
+	min-height: calc(100vh - 50px);
+	padding: 10px;
+}
+.gradient table .container {
+	width: 100%;
+	margin: 0 auto;
+	max-width: 800px;
+}
+.gradient table .container .form {
+	float: none;
+	margin: auto;
+	background: #fff;
+	width: 60%;
+	box-shadow: 0 0 20px #222;
+	color: #5d61d5;
+	padding: 30px;
+	display: none;
+}
+.gradient table .container .form form{
+	display: block;
+	padding: 60px 30px;
+}
+.gradient table .container .form form span{
+	display: block;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 35px;
+}
+.gradient table .container .form form input[type="text"],
+.gradient table .container .form form input[type="password"],
+.gradient table .container .form form input[type="submit"]{
+	display: block;
+	font-size: 15px;
+	margin: 20px 0 0 0;
+	height: 44px;
+	border-radius: 40px;
+	line-height: 30px;
+	padding: 7px 25px;
+	border: 1px solid #CFCFCF;
+	color: #5d61d5;
+	width: 100%;
+}
+.gradient table .container .form form input[type="submit"]{
+	border: none;
+	line-height: 46px;
+	height: 46px;
+	margin-top: 40px;
+	padding: 0 25px;
+	background: #5d61d5;
+	color: #fff;
+	cursor: pointer;
+}
+.gradient table .container .form form input[type="submit"]:hover,
+.gradient table .container .form form input[type="submit"]:focus{
+	background-color: #46429a;
+	transition: all 0.5s ;
+}
+.h5, h5 {
+    font-size: 16px;
+    margin-top: 30px;
+}
+.gradient table .container .form a{
+	text-decoration: none;
+	font-size: 15px;
+	color: #5d61d5;
+}
+.gradient table .container .form a:hover{
+	color: #46429a ;
+}
+/* End Style Login */
+
+/* Start Bootstrap Edit */
+.navbar {
+    border-radius: 0;
+}
+.navbar-brand {
+	font-size: 1.2em;
+	font-weight: bold;
+}
+.navbar-inverse .navbar-brand {
+	color: #3498db ;
+}
+.navbar-inverse .navbar-brand:focus,
+.navbar-inverse .navbar-brand:hover {
+	color: #0069ff ;
+}
+.dropdown-menu {
+	background-color: #0069ff;
+	font-size: 1em;
+	padding: 15px 0;
+	min-width: 170px;
+	border: none;
+}
+.dropdown-menu>li>a{
+	color: #FFF ;
+	padding: 8px 10px;
+}
+.dropdown-menu>li>a:hover {
+	background-color: #0158d4;
+	color: #FFF;
+}
+.nav>li>a {
+	padding: 15px 12px ;
+}
+.navbar-inverse .navbar-nav>li .dropdown-toggle {
+	color: #FFF ;
+	background-color: #0080ff ;
+}
+.navbar-inverse .navbar-nav>li .dropdown-toggle:focus,
+.navbar-inverse .navbar-nav>li .dropdown-toggle:hover {
+	background-color: #0069ff ;
+}
+.navbar-nav>li>.dropdown-menu {
+	border-radius: 0 ;
+}
+.navbar-inverse .navbar-nav>li>a:hover {
+	background-color: #0080ff;
+} 
+.form-control {
+	position: relative;
+}
+/* ======== Forms in Members ======== */
+h1 {
+	font-size: 50px;
+	font-weight: bold;
+	margin: 30px;
+	color: #0080ff;
+}
+.form-group-lg .form-control {
+	margin-bottom: 20px;
+}
+/* End Bootstrap Edit */
+
+/* Start Member page */
+.show-pass {
+	position: absolute;
+    top: 14px;
+    right: 50px;
+    font-size: 20px;
+}
+/* Manage Member */
+.main-table {
+	-webkit-box-shadow:2px 4px 15px #CCC;
+	-moz-box-shadow:2px 4px 15px #CCC;
+	box-shadow:2px 4px 15px #CCC;
+}
+.main-table td {
+	background-color: #FFF;
+	vertical-align: middle !important;
+}
+.main-table tr:first-child td {
+	background-color: #333;
+	color: #FFF;
+}
+.btn {
+	padding: 5px 10px;
+}
+/* End Member page */
